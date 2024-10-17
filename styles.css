@@ -1,0 +1,146 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #3b3b98; /* Violet foncé */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-color: #3f72af; /* Bleu des ailes */
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #3b3b98;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.features-section, .kpi-section {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+}
+
+.features-section h2, .kpi-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features, .kpi-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.feature-item, .kpi-item {
+    text-align: center;
+    max-width: 300px;
+}
+.kpi-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .kpi-item {
+    text-align: center;
+    width: 18%;
+  }
+  
+  .counter {
+    margin-top: 15px;
+  }
+  
+  .count {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  .counter-description {
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
+.contact-section {
+    padding: 50px 20px;
+    background-color: #3f72af;
+    color: white;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #3b3b98;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #3b3b98;
+    color: white;
+}

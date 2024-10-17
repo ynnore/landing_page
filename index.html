@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skin Lens - Gestion Intelligente des Stocks</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Ajout de styles pour les compteurs et leur placement */
+      .kpi-items {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 0;
+      }
+
+      .kpi-item {
+        text-align: center;
+        width: 18%;
+      }
+
+      .counter {
+        margin-top: 15px;
+      }
+
+      .count {
+        font-size: 2.5em;
+        font-weight: bold;
+      }
+
+      .counter-description {
+        margin-top: 5px;
+        font-size: 1.2em;
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Barre de navigation -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="" alt="Mon image en ligne" width="400">
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Accueil</a></li>
+          <li><a href="#features">Caractéristiques</a></li>
+          <li><a href="#kpis">Skin Lens en chiffres</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <h1>Bienvenue sur Skin Lens</h1>
+        <p>
+          La solution intelligente pour analyser votre peau , obtenir un
+          diagnostic personnalisé et acheter des produits adaptés à ma
+          carnation.
+        </p>
+        <a href="#features" class="btn-primary"
+          >Découvrez nos fonctionnalités</a
+        >
+      </div>
+    </section>
+
+    <!-- Section des fonctionnalités -->
+    <section id="features" class="features-section">
+      <h2>Caractéristiques Clés</h2>
+      <div class="features">
+        <div class="feature-item">
+          <h3>Gestion des Stocks de Produits</h3>
+          <p>
+            Vous êtes actuellement à visiter le site de SkinLens en train
+            d'utiliser les derniéres technologies afin d'obtenir votre éclat
+            beauté.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Analyse de la Peau avec IA</h3>
+          <p>
+            Analyse automatique des photos de la peau, fournissant des
+            diagnostics préliminaires et des recommandations de soins
+            personnalisés.
+          </p>
+        </div>
+        <div class="feature-item">
+          <h3>Encaissement Simplifié</h3>
+          <p>
+            Effectuez des paiements en toute sécurité pour acheter les produits
+            recommandés directement via l’application.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section des KPIs -->
+    <section id="kpis" class="kpi-section">
+      <h2>Skin Lens en chiffres</h2>
+      <div class="kpi-items">
+        <div class="kpi-item">
+          <h3>Nombre de Visiteurs</h3>
+          <p>
+            Vous êtes à visiter le site de SkinLens en train d'utiliser les
+            derniéres technologies afin d'obtenir votre éclat beauté.
+          </p>
+          <div class="counter">
+            <span class="count" data-target="1000">0</span>
+            <p class="counter-description">Visiteurs Actuels</p>
+          </div>
+        </div>
+        <div class="kpi-item">
+          <h3>Nombre de Transactions</h3>
+          <p>
+            Voici le nombre de personnes qui ont trouvé leur solution grâce à
+            l'analyse d'image et sont passé à l'étape achat.
+          </p>
+          <div class="counter">
+            <span class="count" data-target="500">0</span>
+            <p class="counter-description">Transactions</p>
+          </div>
+        </div>
+        <div class="kpi-item">
+          <h3>Taux de Conversion</h3>
+          <p>
+            Analyse du pourcentage d’utilisateurs qui passent à l’achat de
+            produits ou services après utilisation.
+          </p>
+          <div class="counter">
+            <span class="count" data-target="250">0</span>
+            <p class="counter-description">Conversions</p>
+          </div>
+        </div>
+        <div class="kpi-item">
+          <h3>Nombres de Contact</h3>
+          <p>
+            Mesure du nombres d’utilisateurs qui remplissent un formulaire pour
+            obtenir un conseil .
+          </p>
+          <div class="counter">
+            <span class="count" data-target="150">0</span>
+            <p class="counter-description">Fiche Contact</p>
+          </div>
+        </div>
+        <div class="kpi-item">
+          <h3>Revenu Généré</h3>
+          <p>
+            Suivi des revenus générés par les ventes de produits et services
+            dermatologiques grâce à au selfies.
+          </p>
+          <div class="counter">
+            <span class="count" data-target="20000">0</span>
+            <p class="counter-description">Revenu (€)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contactez-nous</h2>
+      <form class="contact-form">
+        <label for="name">Nom</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Votre nom"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Votre email"
+          required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Votre message"
+          required
+        ></textarea>
+
+        <button type="submit" class="btn-secondary">Envoyer</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Skin Lens. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+      const counters = document.querySelectorAll(".count");
+
+      counters.forEach((counter) => {
+        counter.innerText = "0";
+        const updateCounter = () => {
+          const target = +counter.getAttribute("data-target");
+          const count = +counter.innerText;
+
+          // Calculer la vitesse de comptage
+          const increment = target / 100; // Change le diviseur pour ajuster la vitesse
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCounter, 20); // Change la durée pour ajuster la rapidité
+          } else {
+            counter.innerText = target;
+          }
+        };
+
+        updateCounter();
+      });
+    </script>
+    <script>
+      // Récupérer les données des KPIs depuis l'API Node.js
+      async function getKPIs() {
+        try {
+          const response = await fetch("http://localhost:3000/api/kpis");
+          const data = await response.json();
+
+          // Mettre à jour les compteurs avec les données de l'API
+          document
+            .querySelector('.count[data-target="1000"]')
+            .setAttribute("data-target", data.visitors);
+          document
+            .querySelector('.count[data-target="500"]')
+            .setAttribute("data-target", data.transactions);
+          document
+            .querySelector('.count[data-target="250"]')
+            .setAttribute("data-target", data.conversions);
+          document
+            .querySelector('.count[data-target="150"]')
+            .setAttribute("data-target", data.cancellations);
+          document
+            .querySelector('.count[data-target="20000"]')
+            .setAttribute("data-target", data.revenue);
+
+          // Mettre à jour l'affichage des compteurs
+          const counters = document.querySelectorAll(".count");
+
+          counters.forEach((counter) => {
+            counter.innerText = "0";
+            const updateCounter = () => {
+              const target = +counter.getAttribute("data-target");
+              const count = +counter.innerText;
+
+              const increment = target / 100;
+
+              if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(updateCounter, 20);
+              } else {
+                counter.innerText = target;
+              }
+            };
+
+            updateCounter();
+          });
+        } catch (error) {
+          console.error("Erreur lors de la récupération des KPIs:", error);
+        }
+      }
+
+      // Appel à la fonction pour charger les données au chargement de la page
+      getKPIs();
+    </script>
+  </body>
+</html>
